@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonResponsive", "NonResponsive\NonResponsive.csproj", "{CCF8390D-3211-4BA1-84AD-1914A5598DAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.NonResponsive", "NonResponsive\1.NonResponsive.csproj", "{CCF8390D-3211-4BA1-84AD-1914A5598DAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveAsynchronousDelegates", "ResponsiveAsynchronousDelegates\ResponsiveAsynchronousDelegates.csproj", "{ED81AE94-06B4-40DC-BCE9-BD00E6D18AB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ResponsiveAsynchronousDelegates", "ResponsiveAsynchronousDelegates\2.ResponsiveAsynchronousDelegates.csproj", "{ED81AE94-06B4-40DC-BCE9-BD00E6D18AB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A655B529-8E58-4356-9BFB-0CCECE6596E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.Common", "Common\0.Common.csproj", "{A655B529-8E58-4356-9BFB-0CCECE6596E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveAsyncAwait", "ResponsiveAsyncAwait\ResponsiveAsyncAwait.csproj", "{3C521D9E-6A07-4A44-8D83-3303A587E6FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ResponsiveAsyncAwait", "ResponsiveAsyncAwait\5.ResponsiveAsyncAwait.csproj", "{3C521D9E-6A07-4A44-8D83-3303A587E6FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveBackgroundWorker", "ResponsiveBackgroundWorker\ResponsiveBackgroundWorker.csproj", "{2F31426C-7F25-4958-B076-B403CE61AD9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ResponsiveBackgroundWorker", "ResponsiveBackgroundWorker\3.ResponsiveBackgroundWorker.csproj", "{2F31426C-7F25-4958-B076-B403CE61AD9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ResponsiveTasks", "ResponsiveTasks\4.ResponsiveTasks.csproj", "{4E378ADE-FDC5-4D4B-866C-C9131F1941E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{3C521D9E-6A07-4A44-8D83-3303A587E6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C521D9E-6A07-4A44-8D83-3303A587E6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C521D9E-6A07-4A44-8D83-3303A587E6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E378ADE-FDC5-4D4B-866C-C9131F1941E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E378ADE-FDC5-4D4B-866C-C9131F1941E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E378ADE-FDC5-4D4B-866C-C9131F1941E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E378ADE-FDC5-4D4B-866C-C9131F1941E0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A655B529-8E58-4356-9BFB-0CCECE6596E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A655B529-8E58-4356-9BFB-0CCECE6596E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A655B529-8E58-4356-9BFB-0CCECE6596E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
