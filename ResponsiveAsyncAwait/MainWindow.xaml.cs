@@ -43,8 +43,9 @@ namespace ResponsiveAsyncAwait
             var items = new List<SyndicationItem>();
             foreach (var url in feedUrls)
             {
-                var reader = await Task<XmlReader>.Run(()=> XmlReader.Create(url));
-                var feed = await Task<SyndicationFeed>.Run(()=>SyndicationFeed.Load(reader));
+                var feed = await Task<XmlReader>.Factory.
+                    StartNew(() => XmlReader.Create(url)).
+                    ContinueWith(r => SyndicationFeed.Load(r.Result));
                 items.AddRange(feed.Items);
             }
             return items;
