@@ -9,12 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveAsyncAwait", "ResponsiveAsyncAwait\ResponsiveAsyncAwait.csproj", "{3C521D9E-6A07-4A44-8D83-3303A587E6FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveBackgroundWorker", "ResponsiveBackgroundWorker\ResponsiveBackgroundWorker.csproj", "{2F31426C-7F25-4958-B076-B403CE61AD9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F31426C-7F25-4958-B076-B403CE61AD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F31426C-7F25-4958-B076-B403CE61AD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F31426C-7F25-4958-B076-B403CE61AD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F31426C-7F25-4958-B076-B403CE61AD9E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C521D9E-6A07-4A44-8D83-3303A587E6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C521D9E-6A07-4A44-8D83-3303A587E6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C521D9E-6A07-4A44-8D83-3303A587E6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
